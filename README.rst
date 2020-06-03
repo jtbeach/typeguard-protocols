@@ -1,23 +1,27 @@
-# Install deps (requires poetry)
+Install deps (requires poetry)
+==============================
 
 ::
 
   poetry install
 
-# Verify that mypy works
+Verify that mypy works
+==============================
 
 ::
 
   poetry run mypy tests/ typeguard_test
 
-# Verify that test success with no typeguard
+Verify that test success with no typeguard
+==============================
 
 ::
 
   poetry run py.test tests/test_impl.py
 
 
-# Verify that test fails with typeguard
+Verify that test fails with typeguard
+==============================
 
 ::
 
